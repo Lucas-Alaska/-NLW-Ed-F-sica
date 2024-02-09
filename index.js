@@ -1,134 +1,135 @@
 const perguntas = [
-    {
-     pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-     respostas: [
-       "Exibir uma mensagem de erro",
-       "Imprimir dados no console",
-       "Criar uma variável"
-     ],
-     correta: 1
-   },
-   {
-     pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-     respostas: [
-       "Comparação de valores sem considerar o tipo",
-       "Atribuição de valores",
-       "Comparação estrita de valores e tipos"
-     ],
-     correta: 2
-   },
-   {
-     pergunta: "Como se declara uma variável em JavaScript?",
-     respostas: [
-       "let myVar;",
-       "const myVar = 10;",
-       "ambas as opções acima estão corretas"
-     ],
-     correta: 2
-   },
-   {
-     pergunta: "O que é uma função em JavaScript?",
-     respostas: [
-       "Um tipo de dado",
-       "Um bloco de código reutilizável",
-       "Uma variável global"
-     ],
-     correta: 1
-   },
-   {
-     pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-     respostas: [
-       "Nenhuma, são sinônimos",
-       "let é usado para valores constantes, const para variáveis",
-       "let permite reatribuição, const cria variáveis imutáveis"
-     ],
-     correta: 2
-   },
-   {
-     pergunta: "O que é o DOM em JavaScript?",
-     respostas: [
-       "Um método de criptografia",
-       "Um modelo de objeto para manipular documentos HTML",
-       "Uma linguagem de programação"
-     ],
-     correta: 1
-   },
-   {
-     pergunta: "Como se realiza uma iteração sobre os elementos de um array em JavaScript?",
-     respostas: [
-       "Usando a estrutura 'if-else'",
-       "Com a declaração 'switch'",
-       "Utilizando loops como 'for' ou 'forEach'"
-     ],
-     correta: 2
-   },
-   {
-     pergunta: "O que é o JSON em JavaScript?",
-     respostas: [
-       "Um método de formatação de texto",
-       "Uma linguagem de estilização",
-       "Um formato de dados leve e intercambiável"
-     ],
-     correta: 2
-   },
-   {
-     pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
-     respostas: [
-       "São iguais, usados de forma intercambiável",
-       "'null' representa a ausência de valor, 'undefined' é atribuído explicitamente",
-       "Ambos representam valores vazios"
-     ],
-     correta: 1
-   },
-   {
-     pergunta: "Como se adiciona um evento a um elemento HTML usando JavaScript?",
-     respostas: [
-       "Apenas com CSS",
-       "Usando o atributo 'event'",
-       "Através do método 'addEventListener'"
-     ],
-     correta: 2
-   },
+  {
+    pergunta: "O que é considerado um exercício aeróbico?",
+    respostas: [
+      "A) Levantamento de peso",
+      "B) Corrida",
+      "C) Flexões",
+    ],
+    correta: 2 // B) Corrida
+  },
+  {
+    pergunta: "Qual é a principal função do alongamento antes do exercício?",
+    respostas: [
+      "A) Ganhar massa muscular",
+      "B) Melhorar a flexibilidade",
+      "C) Aumentar a força",
+    ],
+    correta: 2 // B) Melhorar a flexibilidade
+  },
+  {
+    pergunta: "O que é o índice de massa corporal (IMC) e como ele é calculado?",
+    respostas: [
+      "A) Mede a força muscular, calculado dividindo o peso pela altura ao quadrado",
+      "B) Indica a quantidade de gordura corporal, calculado multiplicando o peso pela altura",
+      "C) Mede a relação entre peso e altura, calculado dividindo o peso pela altura ao quadrado",
+    ],
+    correta: 3 // C) Mede a relação entre peso e altura, calculado dividindo o peso pela altura ao quadrado
+  },
+  {
+    pergunta: "O que é a frequência cardíaca de repouso?",
+    respostas: [
+      "A) A frequência cardíaca durante o exercício",
+      "B) A frequência cardíaca após uma refeição",
+      "C) A frequência cardíaca em repouso, sem atividade física",
+    ],
+    correta: 3 // C) A frequência cardíaca em repouso, sem atividade física
+  },
+  {
+    pergunta: "Quais são os benefícios da prática regular de atividades físicas para a saúde mental?",
+    respostas: [
+      "A) Aumento do estresse",
+      "B) Melhora do humor e redução da ansiedade",
+      "C) Diminuição da concentração",
+    ],
+    correta: 2 // B) Melhora do humor e redução da ansiedade
+  },
+  {
+    pergunta: "O que é fundamental para evitar lesões durante a prática esportiva?",
+    respostas: [
+      "A) Não se alongar antes do exercício",
+      "B) Ignorar sinais de dor",
+      "C) Realizar um aquecimento adequado e utilizar técnicas corretas",
+    ],
+    correta: 3 // C) Realizar um aquecimento adequado e utilizar técnicas corretas
+  },
+  {
+    pergunta: "Qual é a importância da hidratação durante a prática de exercícios físicos?",
+    respostas: [
+      "A) Causar desconforto gástrico",
+      "B) Reduzir o desempenho atlético",
+      "C) Manter o equilíbrio hídrico e prevenir a desidratação",
+    ],
+    correta: 3 // C) Manter o equilíbrio hídrico e prevenir a desidratação
+  },
+  {
+    pergunta: "O que é fundamental para se obter um condicionamento físico adequado?",
+    respostas: [
+      "A) Treinar apenas uma vez por semana",
+      "B) Variedade nos tipos de exercícios e consistência na prática",
+      "C) Descansar por longos períodos entre os treinos",
+    ],
+    correta: 2 // B) Variedade nos tipos de exercícios e consistência na prática
+  },
+  {
+    pergunta: "Quais são os componentes principais da aptidão física?",
+    respostas: [
+      "A) Força e flexibilidade",
+      "B) Resistência cardiovascular e velocidade",
+      "C) Agilidade e equilíbrio",
+    ],
+    correta: 1 // A) Força e flexibilidade
+  },
+  {
+    pergunta: "O que é importante para uma boa recuperação após um treino intenso?",
+    respostas: [
+      "A) Ignorar a fadiga muscular",
+      "B) Descanso adequado e nutrição adequada",
+      "C) Aumentar a intensidade dos treinos",
+    ],
+    correta: 2 // B) Descanso adequado e nutrição adequada
+  },
 ];
 
- const quiz = document.querySelector('#quiz')
- const template = document.querySelector('template')
- 
- const corretas = new Set()
- const totalDePerguntas = perguntas.length
- const mostrarTotal = document.querySelector('#acertos span')
- mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
 
- // loop ou laço de repetição
-for(const item of perguntas) {
-   const quizItem = template.content.cloneNode(true)
-   quizItem.querySelector('h3').textContent = item.pergunta
-   
-   for(let resposta of item.respostas) {
-     const dt = quizItem.querySelector('dl dt').cloneNode(true)
-     dt.querySelector('span').textContent = resposta,
-     dt.querySelector('input').setAttribute('name', 'pergunta-' + perguntas.indexOf(item))
-     dt.querySelector('input').value = item.respostas.indexOf(resposta)
-     dt.querySelector('input').onchange = (event) => {
-       const estaCorreta = event.target.value == item.correta
+  const quiz = document.querySelector('#quiz')
+  const template = document.querySelector('template')
+  
+  const corretas = new Set()
+  const totalDePerguntas = perguntas.length
+  const mostrarTotal = document.querySelector('#acertos span')
+  mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
 
-       corretas.delete(item)
-       if(estaCorreta){
-         corretas.add(item)
-       }
+  // loop ou laço de repetição
+ for(const item of perguntas) {
+    const quizItem = template.content.cloneNode(true)
+    quizItem.querySelector('h3').textContent = item.pergunta
+    
+    for(let resposta of item.respostas) {
+      const dt = quizItem.querySelector('dl dt').cloneNode(true)
+      dt.querySelector('span').textContent = resposta,
+      dt.querySelector('input').setAttribute('name', 'pergunta-' + perguntas.indexOf(item))
+      dt.querySelector('input').value = item.respostas.indexOf(resposta)
+      dt.querySelector('input').onchange = (event) => {
+        const estaCorreta = event.target.value == item.correta
 
-       mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
-     }
+        corretas.delete(item)
+        if(estaCorreta){
+          corretas.add(item)
+        }
+
+        mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
+      }
 
 
-     
-     quizItem.querySelector('dl').appendChild(dt)
-   }
-   
+      
+      quizItem.querySelector('dl').appendChild(dt)
+    }
+    
 
-   quizItem.querySelector('dl dt').remove()
-   
-   
-   // coloca a pergunta na tela
-   quiz.appendChild(quizItem)
- }
+    quizItem.querySelector('dl dt').remove()
+    
+    
+    // coloca a pergunta na tela
+    quiz.appendChild(quizItem)
+  }
