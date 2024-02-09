@@ -6,7 +6,7 @@ const perguntas = [
       "B) Corrida",
       "C) Flexões",
     ],
-    correta: 2 // B) Corrida
+    correta: 1 // B) Corrida
   },
   {
     pergunta: "Qual é a principal função do alongamento antes do exercício?",
@@ -15,7 +15,7 @@ const perguntas = [
       "B) Melhorar a flexibilidade",
       "C) Aumentar a força",
     ],
-    correta: 2 // B) Melhorar a flexibilidade
+    correta: 1 // B) Melhorar a flexibilidade
   },
   {
     pergunta: "O que é o índice de massa corporal (IMC) e como ele é calculado?",
@@ -24,7 +24,7 @@ const perguntas = [
       "B) Indica a quantidade de gordura corporal, calculado multiplicando o peso pela altura",
       "C) Mede a relação entre peso e altura, calculado dividindo o peso pela altura ao quadrado",
     ],
-    correta: 3 // C) Mede a relação entre peso e altura, calculado dividindo o peso pela altura ao quadrado
+    correta: 2 // C) Mede a relação entre peso e altura, calculado dividindo o peso pela altura ao quadrado
   },
   {
     pergunta: "O que é a frequência cardíaca de repouso?",
@@ -33,7 +33,7 @@ const perguntas = [
       "B) A frequência cardíaca após uma refeição",
       "C) A frequência cardíaca em repouso, sem atividade física",
     ],
-    correta: 3 // C) A frequência cardíaca em repouso, sem atividade física
+    correta: 2 // C) A frequência cardíaca em repouso, sem atividade física
   },
   {
     pergunta: "Quais são os benefícios da prática regular de atividades físicas para a saúde mental?",
@@ -42,7 +42,7 @@ const perguntas = [
       "B) Melhora do humor e redução da ansiedade",
       "C) Diminuição da concentração",
     ],
-    correta: 2 // B) Melhora do humor e redução da ansiedade
+    correta: 1 // B) Melhora do humor e redução da ansiedade
   },
   {
     pergunta: "O que é fundamental para evitar lesões durante a prática esportiva?",
@@ -51,7 +51,7 @@ const perguntas = [
       "B) Ignorar sinais de dor",
       "C) Realizar um aquecimento adequado e utilizar técnicas corretas",
     ],
-    correta: 3 // C) Realizar um aquecimento adequado e utilizar técnicas corretas
+    correta: 2 // C) Realizar um aquecimento adequado e utilizar técnicas corretas
   },
   {
     pergunta: "Qual é a importância da hidratação durante a prática de exercícios físicos?",
@@ -60,7 +60,7 @@ const perguntas = [
       "B) Reduzir o desempenho atlético",
       "C) Manter o equilíbrio hídrico e prevenir a desidratação",
     ],
-    correta: 3 // C) Manter o equilíbrio hídrico e prevenir a desidratação
+    correta: 2 // C) Manter o equilíbrio hídrico e prevenir a desidratação
   },
   {
     pergunta: "O que é fundamental para se obter um condicionamento físico adequado?",
@@ -69,7 +69,7 @@ const perguntas = [
       "B) Variedade nos tipos de exercícios e consistência na prática",
       "C) Descansar por longos períodos entre os treinos",
     ],
-    correta: 2 // B) Variedade nos tipos de exercícios e consistência na prática
+    correta: 1 // B) Variedade nos tipos de exercícios e consistência na prática
   },
   {
     pergunta: "Quais são os componentes principais da aptidão física?",
@@ -78,7 +78,7 @@ const perguntas = [
       "B) Resistência cardiovascular e velocidade",
       "C) Agilidade e equilíbrio",
     ],
-    correta: 1 // A) Força e flexibilidade
+    correta: 0 // A) Força e flexibilidade
   },
   {
     pergunta: "O que é importante para uma boa recuperação após um treino intenso?",
@@ -87,7 +87,7 @@ const perguntas = [
       "B) Descanso adequado e nutrição adequada",
       "C) Aumentar a intensidade dos treinos",
     ],
-    correta: 2 // B) Descanso adequado e nutrição adequada
+    correta: 1 // B) Descanso adequado e nutrição adequada
   },
 ];
 
